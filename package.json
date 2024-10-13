@@ -1,0 +1,14 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Aplicação backend do ToDo list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
