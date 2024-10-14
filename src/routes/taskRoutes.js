@@ -8,31 +8,31 @@ const router = express.Router();
 
 // Listar todas as tarefas
 router.get("/", 
-  authenticateToken, 
+  // authenticateToken, 
   listTasks);
 
 // Exibir uma tarefa
 router.get("/:id", 
-  authenticateToken, 
+  // authenticateToken, 
   listTasksById);
 
 // Adicionar uma nova tarefa
 router.post("/",
-  authenticateToken,
+  // authenticateToken,
   validateInputs,
   createTask
 );
 
 // Atualizar uma tarefa
 router.put("/:id",
-  authenticateToken,
+  // authenticateToken,
   validateInputs,
   updateTask
 );
 
 // Remover uma tarefa
 router.delete("/:id", 
-  authenticateToken, 
+  // authenticateToken, 
   deleteTaskById);
 
 module.exports = router;
