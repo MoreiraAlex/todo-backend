@@ -7,7 +7,7 @@ Este projeto consiste em uma API desenvolvida em Node.js para gerenciar uma list
 ## Endpoint da API
 A API foi hospedada na AWS e está disponível na seguinte URL:
 ```bash
-http://18.230.152.7:3000
+https://todo-backend-a972.onrender.com
 ```
 
 ## Funcionalidades
@@ -61,6 +61,16 @@ http://18.230.152.7:3000
 O servidor estará rodando em `http://localhost:3000`.
 
 ## Rotas da API
+
+### Usuario
+
+### **POST /auth/register**
+Cria um novo usuario
+
+### **POST /auth/login**
+Valida usuario e devolve token de autenticação
+
+### Tarefas
 
 ### **POST /tasks**
 Cria uma nova tarefa.
