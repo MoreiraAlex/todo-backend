@@ -4,7 +4,8 @@
   "description": "Aplicação backend do ToDo list",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "startDev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "author": "Alex Moreira",
   "license": "ISC",
