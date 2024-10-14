@@ -6,9 +6,13 @@ const authRoutes = require("./routes/authRoutes");
 const taskRoutes = require("./routes/taskRoutes");
 const { port, dbUser, dbPass } = require("./config/keys");
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 
 const app = express();
+
+// Habilitar CORS
+app.use(cors());
 
 
 // Middlewares de segurança
