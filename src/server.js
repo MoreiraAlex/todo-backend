@@ -4,6 +4,7 @@ const helmet = require("helmet");
 const xss = require("xss-clean");
 const rateLimit = require("express-rate-limit");
 const authRoutes = require("./routes/authRoutes");
+const taskRoutes = require("./routes/taskRoutes");
 const { port } = require("./config/keys");
 
 const app = express();
@@ -23,6 +24,7 @@ app.use(limiter);
 
 // Rotas
 app.use("/auth", authRoutes);
+app.use("/tasks", taskRoutes);
 
 
 // Inicializar servidor HTTPS
