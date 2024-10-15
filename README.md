@@ -5,7 +5,7 @@
 Este projeto consiste em uma API desenvolvida em Node.js para gerenciar uma lista de tarefas (To-Do List). A API permite criar, atualizar, remover e listar tarefas, integrando-se com MongoDB para armazenamento persistente e Redis para cache. A autenticação é feita com JWT para garantir que apenas usuários autenticados possam acessar certas funcionalidades.
 
 ## Endpoint da API
-A API foi hospedada na AWS e está disponível na seguinte URL:
+A API foi hospedada na Render e está disponível na seguinte URL:
 ```bash
 https://todo-backend-a972.onrender.com
 ```
